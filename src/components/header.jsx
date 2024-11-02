@@ -1,26 +1,26 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Header({ currentSection, setCurrentSection }) {
-  const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
-
-  return (
-    <header>
-      <h1>Oscar Rendon</h1>
-      <nav>
-        <ul>
-          {sections.map((section) => (
-            <li
-              key={section}
-              className={currentSection === section ? 'active' : ''}
-              onClick={() => setCurrentSection(section)}
-            >
-              {section}
+const Header = () => {
+    console.log("Header rendered")
+    return (
+        <header>
+        <nav>
+            <h1>Oscar Rendon</h1>
+            <ul>
+            <li>
+                <Link to="/">About</Link>
             </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
-  );
-}
+            <li>
+                <Link to="/portfolio">Portfolio</Link>
+            </li>
+            <li>
+                <Link to="/contact">Contact</Link>
+            </li>
+            </ul>
+        </nav>
+        </header>
+    );
+    };
 
 export default Header;
