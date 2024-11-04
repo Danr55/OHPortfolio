@@ -9,7 +9,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light custom-bg1 fixed-top">
             <div className="container-fluid">
             <h1 className="navbar-brand col-2 text-white text-left">Oscar Rendon</h1>
-            <button className="navbar-toggle custom-bg2 rounded-pill d-lg-none text-left" type="button" data-bs-toggle="collapse" 
+            <button className="navbar-toggle rounded-pill d-lg-none text-left" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
