@@ -6,10 +6,10 @@ const Header = () => {
     console.log("Header rendered")
     return (
         <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light custom-bg1">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light custom-bg1 fixed-top">
             <div className="container-fluid">
-            <h1 className="navbar-brand col-2 text-white">Oscar Rendon</h1>
-            <button className="navbar-toggle custom-bg2 rounded-pill d-lg-none" type="button" data-bs-toggle="collapse" 
+            <h1 className="navbar-brand col-2 text-white text-left">Oscar Rendon</h1>
+            <button className="navbar-toggle custom-bg2 rounded-pill d-lg-none text-left" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

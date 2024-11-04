@@ -15,14 +15,14 @@ function App() {
     <Router>
     <div>
       <Header />
-      <div className="container custom-bg3">
+        <div className="d-flex custom-bg3 justify-content-center align-items-center">
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
-      </div>  
+      </Routes> 
+        </div>
       <Footer />
     </div>
     </Router>
