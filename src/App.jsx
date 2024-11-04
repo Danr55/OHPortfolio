@@ -15,7 +15,7 @@ function App() {
     <Router>
     <div>
       <Header />
-        <div className="d-flex custom-bg3 justify-content-center align-items-center">
+        <div className="d-flex custom-bg3 justify-content-center align-items-center p-5">
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
