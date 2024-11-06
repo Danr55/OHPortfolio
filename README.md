@@ -1,8 +1,41 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This repository showcases my work as a full stack developer, including projects that demonstrate my skills and abilities in web development.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [About Me](#about-me)
+- [Projects](#projects)
+- [Technologies Used](#technologies-used)
+- [Contact](#contact)
+
+## About Me
+
+I am a passionate software developer with experience in building interactive and user-focused applications. My goal is to create efficient and scalable solutions that enhance user experience.
+
+## Projects
+
+### Project 1: [Weather App](https://woweather.onrender.com)
+- Description: Weather app built with Typscript, Node.js.
+- Technologies: Typescript, Node.js
+
+### Project 2: [Indexd](https://danr55.github.io/Indexd/)
+- Description: This project was built with JavaScript, HTML, and CSS.
+- Technologies: List of technologies used.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- Express.js
+
+## Contact
+
+Feel free to reach out to me for any inquiries or collaboration opportunities!
+
+- Email: [danrendon.5512@gmail.com]
+- GitHub: [https://github.com/Danr55]
+- LinkedIn: [https://www.linkedin.com/in/oscar-rendon-070b49326/]
