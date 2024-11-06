@@ -3,9 +3,17 @@ import React from "react";
 function Footer() {
     return (
         <footer className="fixed-bottom custom-bg1 text-center h-20">
-        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+        <div className="container">
+        <a href="https://github.com/Danr55" target="_blank" rel="noopener noreferrer" className="mx-2">
+            <img src="./src/assets/github_3291695.png" alt="GitHub" className="img-fluid"
+            style={{ width: "30px", height: "30px"}}/>
+        </a>
+        <a href="https://www.linkedin.com/in/oscar-rendon-070b49326/" target="_blank" rel="noopener noreferrer" className="mx-2">
+            <img src="./src/assets/linkedin_2504923.png" alt="LinkedIn" className="img-fluid"
+            style={{ width: "30px", height: "30px"}}/>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" className="mx-2">X</a>
+        </div>
         </footer>
     );
 }
