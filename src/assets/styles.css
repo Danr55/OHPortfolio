@@ -1,6 +1,5 @@
 #root{
     font-family: 'Candara', sans-serif;
-    font-size: 20px;
 }
 
 .custom-bg1 {
@@ -12,14 +11,9 @@
 }
 
 .custom-bg3 {
-    background-color: #BFA89E !important;
+    background-color: #B8AC98 !important;
     height: 100vh;
 }
-
-/* .custom-bg4 {
-    background-color: #80CED7 !important;
-} */
-
 .nav-link {
     transition: background-color 0.3s, color 0.3s;
     border-radius: 20px;
@@ -29,4 +23,32 @@
     background-color: #80CED7;
     color: #263D42;
     border-radius: 20px;
+}
+
+.nav-link.active {
+    background-color: #80CED7;
+    color: #80CED7;
+    border-radius: 20px;
+}
+
+.custom-btn-group {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.container .portfolio-card:hover .card-img-top {
+    opacity: 0.8 !important;
+   
+}
+
+.bordered-text {
+    font-size: 50px;
+    color: #F5EDF0; 
+    text-shadow: 
+        -1.2px -1.2px 0 #000,  
+        1.2px -1.2px 0 #000,
+        -1.2px 1.2px 0 #000,
+        1.2px 1.2px 0 #000; 
 }

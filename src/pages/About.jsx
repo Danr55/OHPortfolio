@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <h2>About Me</h2>
+            <h2 className='fs-2 bordered-text'>About Me</h2>
             <img src='./src/assets/man_14.png' alt='oscar rendon' className='img-fluid img-sm' style={{ width: '50px', height: '50px'}}/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p className='fs-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Similique, cum nostrum? Quis quisquam, nisi dolore, 
                  recusandae mollitia cupiditate consequuntur voluptatem 
                  aperiam aliquid adipisci natus suscipit velit dolores 
