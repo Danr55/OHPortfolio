@@ -12,7 +12,7 @@
 
 .custom-bg3 {
     background-color: #B8AC98 !important;
-    height: 100vh;
+    min-height: 100vh;
 }
 .nav-link {
     transition: background-color 0.3s, color 0.3s;

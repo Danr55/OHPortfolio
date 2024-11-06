@@ -12,7 +12,10 @@ function Footer() {
             <img src="./src/assets/linkedin_2504923.png" alt="LinkedIn" className="img-fluid"
             style={{ width: "30px", height: "30px"}}/>
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer" className="mx-2">X</a>
+        <a href="https://x.com/danr1255" target="_blank" rel="noopener noreferrer" className="mx-2">
+        <img src="./src/assets/Twitter.png" alt="Twitter" className="img-fluid"
+            style={{ width: "30px", height: "30px"}}/>
+        </a>
         </div>
         </footer>
     );
