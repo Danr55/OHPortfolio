@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
     return (
         <div>
-            <h2 className="fs-2 bordered-text">Resume</h2>
+            <h2 className="fs-2 bordered-text pt-5">Resume</h2>
             <p className="fs-5">Download my <a href="#" className="text-decoration-none">Resume</a></p>
                 <h3 className="fs-4">FrontEnd Proficiencies</h3>
                 <ul className="fs-6">
@@ -15,7 +15,7 @@ const Resume = () => {
                     <li>Bootstrap</li>
                 </ul>
                 <h3 className="fs-4">BackEnd Proficiencies</h3>
-                <ul className="fs-5">
+                <ul className="fs-6">
                     <li>APIs</li>
                     <li>Node</li>
                     <li>Express</li>

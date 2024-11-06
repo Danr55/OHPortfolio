@@ -3,12 +3,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import '../src/assets/styles.css'
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import About from '../src/pages/About.jsx'
-import Portfolio from '../src/pages/Portfolio.jsx'
-import Contact from '../src/pages/Contact.jsx'
-import Header from '../src/components/Header'
-import Footer from '../src/components/Footer'
-import Resume from '../src/pages/Resume.jsx'
+import About from './pages/About.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+import Contact from './pages/Contact.jsx'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Resume from './pages/Resume.jsx'
 
 function App() {
   return (
