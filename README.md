@@ -1,5 +1,7 @@
 # My Portfolio
 
+![Portfolio](./src/assets/Portfolio.png)
+
 Welcome to my portfolio! This repository showcases my work as a full stack developer, including projects that demonstrate my skills and abilities in web development.
 
 ## Table of Contents
@@ -36,6 +38,7 @@ I am a passionate software developer with experience in building interactive and
 
 Feel free to reach out to me for any inquiries or collaboration opportunities!
 
+- Portfolio link: [https://ohportfolio.netlify.app/]
 - Email: [danrendon.5512@gmail.com]
 - GitHub: [https://github.com/Danr55]
 - LinkedIn: [https://www.linkedin.com/in/oscar-rendon-070b49326/]
