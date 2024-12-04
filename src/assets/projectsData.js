@@ -1,6 +1,7 @@
 import IndexdLogo from './IndexdLogo.png';
 import WeatherAppLogo from './WeatherApp.png';
 import ComingSoon from './ComingSoon.jpg';
+import VinylVault from './VinylVault.png';
 
 export const projectsData = [
     {
@@ -21,8 +22,16 @@ export const projectsData = [
     },
     {
         id: 3,
-        title: 'Coming Soon!',
-        description: 'This project is coming soon.',
+        title: 'Vinyl-Vault',
+        description: 'Project built with React, Typescript, Node.js, and PostgreSQL.',
+        url: 'https://vinyl-vault-1.onrender.com/',
+        github: 'https://github.com/KatanaFinKoi/Vinyl-Vault',
+        image: VinylVault
+    },
+    {
+        id: 4,
+        title: 'Coming Soon',
+        description: 'This project is currently under construction.',
         url: '#',
         github: '#',
         image: ComingSoon
